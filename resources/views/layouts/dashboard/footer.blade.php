@@ -9,12 +9,13 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src='{{asset("AdminLte/plugins/jquery/jquery.min.js")}}'></script>
+{{-- <script src='{{asset("AdminLte/plugins/jquery/jquery./zmin.js")}}'></script> --}}
 <!-- Bootstrap 4 -->
 <script src='{{asset("AdminLte/plugins/bootstrap/js/bootstrap.bundle.min.js")}}'></script>
+{{-- <script src='{{asset("AdminLte/dist/js/dataTables.buttons.min.js")}}'></script> --}}
 <!-- AdminLTE App -->
 <script src='{{asset("AdminLte/dist/js/adminlte.min.js")}}'></script>
 <!-- AdminLTE for demo purposes -->
-<script src='{{asset("AdminLte/dist/js/demo.js")}}'></script>
+
 </body>
 </html>

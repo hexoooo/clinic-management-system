@@ -9,6 +9,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Scopes\ClinicScope;
 
 class User extends Authenticatable
 {
@@ -52,4 +53,7 @@ class User extends Authenticatable
     protected $table = 'users';
     public $timestamps = true;
     protected $dates = ['deleted_at'];
+    // protected static function booted(){
+    //     static::addGlobalScope(new ClinicScope);
+    // }
 }

@@ -35,67 +35,44 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-               <li class="nav-item">
-                 <a href="#" class="nav-link">
-                   <i class="nav-icon fas fa-tachometer-alt"></i>
-                   <p>
-                     users
-                     <i class="right fas fa-angle-left"></i>
-                   </p>
-                 </a>
-                 <ul class="nav nav-treeview">
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>user1 v1</p>
-                     </a>
-                   </li>
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index2.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>user2 v2</p>
-                     </a>
-                   </li>
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index3.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>user3 v3</p>
-                     </a>
-                   </li>
-                 </ul>
-               </li>
-               <li class="nav-item">
-                 <a href="#" class="nav-link">
-                   <i class="nav-icon fas fa-tachometer-alt"></i>
-                   <p>
-                     clinic
-                     <i class="right fas fa-angle-left"></i>
-                   </p>
-                 </a>
-                 <ul class="nav nav-treeview">
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>clinic v1</p>
-                     </a>
-                   </li>
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index2.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>clinic v2</p>
-                     </a>
-                   </li>
-                   <li class="nav-item">
-                     <a href='{{asset("AdminLte/index3.html")}}' class="nav-link">
-                       <i class="far fa-circle nav-icon"></i>
-                       <p>clinic v3</p>
-                     </a>
-                   </li>
-                 </ul>
-               </li>
-               <li class="nav-item">
-            <a href="../widgets.html")}}' class="nav-link">
+              with font-awesome or any other icon font library -->
+              <li class="nav-item">
+              <a href={{route('user.index')}} class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>users</p>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    clinic
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href='{{asset("AdminLte/index.html")}}' class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>clinic v1</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href='{{asset("AdminLte/index2.html")}}' class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>clinic v2</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href='{{asset("AdminLte/index3.html")}}' class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>clinic v3</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+            <a href="{{asset('widgets.html')}}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
